@@ -32,7 +32,7 @@ echo "GITHUB_PASSWORD=${GITHUB_PASSWORD}"
 
 cd "$BASE"
 
-ln -sf gitconfig ~/.gitconfig
+ln -sf "$BASE/gitconfig" ~/.gitconfig
 template "gitconfig-github" > ~/.gitconfig-github
 template "gitconfig-user" > ~/.gitconfig-user
 
