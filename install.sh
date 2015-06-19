@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-BASE=$(dirname $(readlink -f $0))
+ABS=$($READLINK -f $0)
+BASE=$(dirname $ABS)
 
 # $1 = filename
 template() {
