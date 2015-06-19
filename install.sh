@@ -3,10 +3,8 @@
 ABS=$($READLINK -f $0)
 BASE=$(dirname $ABS)
 
-# $1 = filename
-template() {
-  echo "$(eval "echo \"$(cat "$1")\"")"
-}
+source ./template.sh/template.sh
+
 
 ## variables
 
@@ -37,3 +35,4 @@ cd "$BASE"
 ln -sf gitconfig ~/.gitconfig
 template "gitconfig-github" > ~/.gitconfig-github
 template "gitconfig-user" > ~/.gitconfig-user
+
