@@ -2,4 +2,4 @@
 My Git configurations.
 
 ## Used by
-* https://github.com/AndersDJohnson/dotfiles
+* [AndersDJohnson/dotfiles](https://github.com/AndersDJohnson/dotfiles)
