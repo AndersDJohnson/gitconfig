@@ -3,6 +3,8 @@
 ABS=$($READLINK -f $0)
 BASE=$(dirname $ABS)
 
+git submodule update --init
+
 source ./template.sh/template.sh
 
 
