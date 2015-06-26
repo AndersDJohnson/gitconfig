@@ -12,8 +12,8 @@ source ./template.sh/template.sh
 
 GITHUB_USER="AndersDJohnson"
 GIT_NAME="Anders D. Johnson"
-GIT_EMAIL="AndersDJohnson@users.noreply.github.com"
-read -p "Git email: " _GIT_EMAIL
+GIT_EMAIL="${GITHUB_USER}@users.noreply.github.com"
+read -p "Git email (default: $GIT_EMAIL): " _GIT_EMAIL
 if [ ! -z $_GIT_EMAIL ]; then
 	GIT_EMAIL=$_GIT_EMAIL
 fi
