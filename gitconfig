@@ -1,47 +1,47 @@
 # include requires git 1.7.10+ or some such
 [include]
-	path = .gitconfig-user
-	path = .gitconfig-github
-	path = .gitconfig-host
-	path = .gitconfig.host
+  path = .gitconfig-user
+  path = .gitconfig-github
+  path = .gitconfig-host
+  path = .gitconfig.host
 [color]
-	ui = true
+  ui = true
 [push]
-	# not supported in git 1.7.x
-	#default = simple
-	default = current
+  # not supported in git 1.7.x
+  #default = simple
+  default = current
 [alias]
-    st = status -sb
-    co = checkout
-    br = branch
-    lg = log --pretty=oneline --stat --decorate
-    fixup    = commit --amend --no-edit
-    fu       = commit --amend --no-edit
-    recommit = commit --amend --no-edit
-    rc       = commit --amend --no-edit
-    reword = commit --amend
-    rw     = commit --amend
-    aliases = "!git config -l | grep alias | cut -c 7-"
-    alias = "!f() { git config --global alias.$1 \"$2\"; }; f"
-    unalias = "!f() { git config --global --unset alias.$1; }; f"
-    pf = push --force
-    d = diff
-    dn = diff --name-only
-    last = diff --cached HEAD^
-    this = diff --staged
-    staged = diff --staged
-    st     = diff --staged
-    cf = diff --diff-filter=U --name-only
-    rv = remote -v
-    pu = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-    au = add -u
-    aa = add -A
-    cm = commit
-    can = commit --amend --no-edit
-    ca = commit --amend
-    cn = commit --no-edit
-    conflicts = diff --name-only --diff-filter=U
-    cf        = diff --name-only --diff-filter=U
-    unadd = reset HEAD
-    r = reset
-    cl = clone
+  st = status -sb
+  co = checkout
+  br = branch
+  lg = log --pretty=oneline --stat --decorate
+  fixup    = commit --amend --no-edit
+  fu       = commit --amend --no-edit
+  recommit = commit --amend --no-edit
+  rc       = commit --amend --no-edit
+  reword = commit --amend
+  rw     = commit --amend
+  aliases = "!git config -l | grep alias | cut -c 7-"
+  alias = "!f() { git config --global alias.$1 \"$2\"; }; f"
+  unalias = "!f() { git config --global --unset alias.$1; }; f"
+  pf = push --force
+  d = diff
+  dn = diff --name-only
+  last = diff --cached HEAD^
+  this = diff --staged
+  staged = diff --staged
+  st     = diff --staged
+  cf = diff --diff-filter=U --name-only
+  rv = remote -v
+  pu = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+  au = add -u
+  aa = add -A
+  cm = commit
+  can = commit --amend --no-edit
+  ca = commit --amend
+  cn = commit --no-edit
+  conflicts = diff --name-only --diff-filter=U
+  cf        = diff --name-only --diff-filter=U
+  unadd = reset HEAD
+  r = reset
+  cl = clone
