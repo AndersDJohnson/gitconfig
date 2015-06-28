@@ -39,8 +39,8 @@
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
   m = merge
-  ps = push
-  psf = push --force
+  p = push
+  pf = push --force
   pl = pull
   plr = pull --rebase
   plup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
