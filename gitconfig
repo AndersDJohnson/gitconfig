@@ -11,48 +11,49 @@
   #default = simple
   default = current
 [alias]
-  s = status
-  st = status
-  ss = status -s
-  sb = status -sb
-  c = commit
-  cm = commit -m
-  can = commit --amend --no-edit
-  ca = commit --amend
-  cn = commit --no-edit
-  conflicts = diff --name-only --diff-filter=U
-  cf        = diff --name-only --diff-filter=U
-  cl = clone
-  co = checkout
-  br = branch
-  l  = log
-  lp = log --pretty=oneline --stat --decorate
-  fixup    = commit --amend --no-edit
-  fu       = commit --amend --no-edit
-  recommit = commit --amend --no-edit
-  rc       = commit --amend --no-edit
-  reword = commit --amend
-  rw     = commit --amend
-  rb = rebase
-  rbi = rebase -i
-  aliases = "!git config -l | grep alias | cut -c 7-"
+  a = add
+  aa = add -A
   alias = "!f() { git config --global alias.$1 \"$2\"; }; f"
-  unalias = "!f() { git config --global --unset alias.$1; }; f"
-  p = push --force
-  pf = push --force
+  aliases = "!git config -l | grep alias | cut -c 7-"
+  ap = add -p
+  au = add -u
+  br = branch
+  c = commit
+  ca = commit --amend
+  can = commit --amend --no-edit
+  cf        = diff --name-only --diff-filter=U
+  cf = diff --diff-filter=U --name-only
+  cl = clone
+  cm = commit -m
+  cn = commit --no-edit
+  co = checkout
+  conflicts = diff --name-only --diff-filter=U
   d = diff
   dn = diff --name-only
-  last = diff --cached HEAD^
-  this = diff --staged
-  staged = diff --staged
-  sg     = diff --staged
   ds     = diff --staged
-  cf = diff --diff-filter=U --name-only
+  fixup    = commit --amend --no-edit
+  fu       = commit --amend --no-edit
+  l  = log
+  last = diff --cached HEAD^
+  lp = log --pretty=oneline --stat --decorate
+  p = push --force
+  pf = push --force
+  pu = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+  r = reset
+  rb = rebase
+  rbi = rebase -i
+  rc       = commit --amend --no-edit
+  recommit = commit --amend --no-edit
+  reword = commit --amend
   rt = remote
   rtv = remote -v
-  pu = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-  au = add -u
-  aa = add -A
-  ap = add -p
+  rw     = commit --amend
+  s = status
+  sb = status -sb
+  sg     = diff --staged
+  ss = status -s
+  st = status
+  staged = diff --staged
+  this = diff --staged
   unadd = reset HEAD
-  r = reset
+  unalias = "!f() { git config --global --unset alias.$1; }; f"
