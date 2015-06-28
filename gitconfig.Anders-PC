@@ -1,0 +1,7 @@
+[core]
+    autocrlf = true
+[web]
+    browser = chrome
+[browser]
+    [chrome]
+        path = C:\\Users\\Anders\\AppData\\Local\\Google\\Chrome\\Application\\chrome.exe
