@@ -38,9 +38,12 @@
   l  = log
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
-  p = push --force
+  ps = push
   pf = push --force
-  pu = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
+  pl = pull
+  plr = pull --rebase
+  pu = push
+  pup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   r = reset
   rb = rebase
   rbi = rebase -i
