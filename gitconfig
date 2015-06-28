@@ -40,10 +40,9 @@
   lp = log --pretty=oneline --stat --decorate
   m = merge
   ps = push
-  pf = push --force
+  psf = push --force
   pl = pull
   plr = pull --rebase
-  pu = push
   pup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   r = reset
   rb = rebase
