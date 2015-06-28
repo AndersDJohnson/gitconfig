@@ -38,6 +38,7 @@
   l  = log
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
+  m = merge
   ps = push
   pf = push --force
   pl = pull
