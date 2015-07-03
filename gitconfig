@@ -33,6 +33,7 @@
   d = diff
   dn = diff --name-only
   ds     = diff --staged
+  ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
   fixup    = commit --amend --no-edit
   fu       = commit --amend --no-edit
   l  = log
