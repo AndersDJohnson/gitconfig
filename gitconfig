@@ -29,7 +29,8 @@
   cm = commit -m
   cn = commit --no-edit
   co = checkout
-  conflicts = diff --name-only --diff-filter=U
+  conflicts =  diff --diff-filter=U
+  conflicted = diff --diff-filter=U --name-only
   d = diff
   dn = diff --name-only
   ds     = diff --staged
@@ -63,3 +64,7 @@
   this = diff --staged
   unadd = reset HEAD
   unalias = "!f() { git config --global --unset alias.$1; }; f"
+[credential]
+  helper = wincred
+[gui]
+  recentrepo = C:/Users/Anders/code/magnificent.js
