@@ -67,7 +67,3 @@
   this = diff --staged
   unadd = reset HEAD
   unalias = "!f() { git config --global --unset alias.$1; }; f"
-[credential]
-  helper = wincred
-[gui]
-  recentrepo = C:/Users/Anders/code/magnificent.js
