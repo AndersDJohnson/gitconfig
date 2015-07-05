@@ -58,6 +58,7 @@
   s = status
   sb = status -sb
   sg     = diff --staged
+  sgn    = diff --staged --name-only
   ss = status -s
   st = status
   staged = diff --staged
