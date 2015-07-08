@@ -67,3 +67,5 @@
   this = diff --staged
   unadd = reset HEAD
   unalias = "!f() { git config --global --unset alias.$1; }; f"
+[url "https://"]
+	insteadOf = git://
