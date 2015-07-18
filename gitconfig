@@ -18,8 +18,9 @@
   ap = add -p
   au = add -u
   b = branch
-  br = branch
+  br = branch -r
   bv = branch -v
+  brv = branch -rv
   c = commit
   ca = commit --amend
   can = commit --amend --no-edit
