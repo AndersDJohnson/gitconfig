@@ -40,6 +40,7 @@
   fixup    = commit --amend --no-edit
   fu       = commit --amend --no-edit
   l  = log
+  lg = log
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
   m = merge
