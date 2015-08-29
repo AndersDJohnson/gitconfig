@@ -33,6 +33,7 @@
   conflicts =  diff --diff-filter=U
   conflicted = diff --diff-filter=U --name-only
   d = diff
+  di = diff
   dn = diff --name-only
   ds     = diff --staged
   ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
