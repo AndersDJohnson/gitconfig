@@ -48,7 +48,9 @@
   p = push
   pf = push --force
   pl = pull
+  pls = "!git stash; git pull; git stash apply"
   plr = pull --rebase
+  plrs = "!git stash; git pull --rebase; git stash apply"
   plup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   r = reset
   rb = rebase
