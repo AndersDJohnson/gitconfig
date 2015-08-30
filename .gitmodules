@@ -1,3 +1,6 @@
 [submodule "template.sh"]
 	path = template.sh
 	url = https://github.com/adjohnson916/template.sh.git
+[submodule "os_detect.sh"]
+	path = os_detect.sh
+	url = https://github.com/adjohnson916/os_detect.sh.git
