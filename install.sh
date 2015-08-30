@@ -38,3 +38,5 @@ ln -sf "$BASE/gitconfig" ~/.gitconfig
 template "gitconfig-github" > ~/.gitconfig-github
 template "gitconfig-user" > ~/.gitconfig-user
 
+ln -sf "$BASE/gitconfig-dynamic" ~/.gitconfig-dynamic
+
