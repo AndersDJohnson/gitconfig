@@ -4,6 +4,7 @@
   path = .gitconfig-github
   path = .gitconfig-host
   path = .gitconfig.host
+  path = .gitconfig-dynamic
 [color]
   ui = true
 [push]
