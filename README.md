@@ -8,3 +8,6 @@ My Git configurations.
 
 ## Used by
 * [AndersDJohnson/dotfiles](https://github.com/AndersDJohnson/dotfiles)
+
+## References
+* [shoshindes/git-aliases](https://github.com/shoshindes/git-aliases)
