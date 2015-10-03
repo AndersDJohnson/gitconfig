@@ -47,6 +47,7 @@
   lp = log --pretty=oneline --stat --decorate
   m = merge
   p = push
+  pu = push
   pf = push --force
   pt = push --tags
   pl = pull
