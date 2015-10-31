@@ -1,6 +1,9 @@
 # gitconfig
 My Git configurations.
 
+## References
+* [AndersDJohnson/git-notes](https://github.com/AndersDJohnson/git-notes)
+
 ## Install
 
 1. Run install script:
