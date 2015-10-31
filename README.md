@@ -1,9 +1,6 @@
 # gitconfig
 My Git configurations.
 
-## References
-* [AndersDJohnson/git-notes](https://github.com/AndersDJohnson/git-notes)
-
 ## Install
 
 1. Run install script:
@@ -13,4 +10,5 @@ My Git configurations.
 * [AndersDJohnson/dotfiles](https://github.com/AndersDJohnson/dotfiles)
 
 ## References
+* [AndersDJohnson/git-notes](https://github.com/AndersDJohnson/git-notes)
 * [shoshindes/git-aliases](https://github.com/shoshindes/git-aliases)
