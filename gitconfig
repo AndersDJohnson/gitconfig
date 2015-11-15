@@ -22,6 +22,7 @@
   br = branch -r
   bv = branch -v
   brv = branch -rv
+  bl = blame --line-porcelain --
   c = commit
   ca = commit --amend
   can = commit --amend --no-edit
