@@ -46,6 +46,7 @@
   ig =     "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   l  = log
   lg = log
+  lgr = log --graph -n 20 --format='format:%C(blue)%h%C(reset) %C(black)%an%C(reset) %s %C(black bold)%cr%C(reset)%C(auto)%d%C(reset)' --date-order --tags --all
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
   m = merge
