@@ -20,6 +20,7 @@
   au = add -u
   b = branch
   br = branch -r
+  bu = branch -u
   bv = branch -v
   brv = branch -rv
   bl = blame --line-porcelain --
