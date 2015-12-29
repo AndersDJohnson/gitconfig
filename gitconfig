@@ -74,7 +74,9 @@
   sg     = diff --staged
   sgn    = diff --staged --name-only
   ss = status -s
+  sst = status -s --untracked-files=no
   st = status
+  stt = status --untracked-files=no
   staged = diff --staged
   t = tag
   tl = tag -l
