@@ -81,7 +81,7 @@
   this = diff --staged
   unadd = reset HEAD
   unalias = "!f() { git config --global --unset alias.$1; }; f"
-  x = update-index --chmod=+x
+  ux = update-index --chmod=+x
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
