@@ -39,6 +39,7 @@
   di = diff
   dn = diff --name-only
   ds     = diff --staged
+  dw = "!f() { git diff $@ | dwdiff --diff-input --color | less; }; f"
   f = fetch
   fixup    = commit --amend --no-edit
   fu       = commit --amend --no-edit
