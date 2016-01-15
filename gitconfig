@@ -74,6 +74,7 @@
   sb = status -sb
   sg     = diff --staged
   sgn    = diff --staged --name-only
+  sgw    = "!git dw --staged"
   ss = status -s
   sst = status -s --untracked-files=no
   st = status
