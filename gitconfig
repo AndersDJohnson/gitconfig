@@ -1,10 +1,10 @@
 # include requires git 1.7.10+ or some such
 [include]
-  path = .gitconfig-user
-  path = .gitconfig-github
-  path = .gitconfig-host
-  path = .gitconfig.host
-  path = .gitconfig-dynamic
+  path = ~/.gitconfig-dir/.gitconfig-user
+  path = ~/.gitconfig-dir/.gitconfig-github
+  path = ~/.gitconfig-dir/.gitconfig-host
+  path = ~/.gitconfig-dir/.gitconfig.host
+  path = ~/.gitconfig-dir/.gitconfig-dynamic
 [color]
   ui = true
 [push]

@@ -1,4 +1,3 @@
 *.swp
 
-gitconfig-dynamic
-
+.gitconfig*

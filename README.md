@@ -3,7 +3,11 @@ My Git configurations.
 
 ## Install
 
-1. Run install script:
+#. Download
+  * `git clone https://github.com/AndersDJohnson/gitconfig ~/.gitconfig-dir`
+
+#. Run install script:
+  * `cd ~/.gitconfig-dir`
   * `./install.sh`
 
 ## Used by

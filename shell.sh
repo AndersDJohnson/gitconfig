@@ -7,9 +7,9 @@ function gi() {
 
 git help -a | grep credential-osxkeychain &> /dev/null
 if [ $? -eq 0 ]; then
-  git config --file ~/.gitconfig-dynamic credential.helper osxkeychain
+  git config --file ~/.gitconfig-dir/.gitconfig-dynamic credential.helper osxkeychain
 else
-  git config --file ~/.gitconfig-dynamic credential-helper cache
+  git config --file ~/.gitconfig-dir/.gitconfig-dynamic credential-helper cache
 fi
 
 ## http://twobitlabs.com/2011/08/install-diffmerge-git-mac-os-x/

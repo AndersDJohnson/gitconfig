@@ -7,7 +7,6 @@ git submodule update --init
 
 source ./template.sh/template.sh
 
-
 ## variables
 
 GITHUB_USER="AndersDJohnson"
@@ -35,8 +34,5 @@ echo "GITHUB_PASSWORD=${GITHUB_PASSWORD}"
 cd "$BASE"
 
 ln -sf "$BASE/gitconfig" ~/.gitconfig
-template "gitconfig-github" > ~/.gitconfig-github
-template "gitconfig-user" > ~/.gitconfig-user
-
-ln -sf "$BASE/gitconfig-dynamic" ~/.gitconfig-dynamic
-
+template gitconfig-github > .gitconfig-github
+template gitconfig-user > .gitconfig-user
