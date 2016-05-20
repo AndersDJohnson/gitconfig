@@ -96,3 +96,7 @@
 	helper = cache
 [hub]
 	protocol = https
+[user]
+	signingkey = A285AD72
+[commit]
+	gpgsign = true
