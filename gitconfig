@@ -100,3 +100,5 @@
 	signingkey = A285AD72
 [commit]
 	gpgsign = true
+[core]
+	autocrlf = input
