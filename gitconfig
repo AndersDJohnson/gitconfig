@@ -56,6 +56,7 @@
   pu = push
   pf = push --force
   pt = push --tags
+  pft = push --follow-tags
   pl = pull
   pls = "!f() { git stash; git pull $@; git stash apply; }; f"
   plr = pull --rebase
