@@ -82,6 +82,7 @@
   stt = status --untracked-files=no
   staged = diff --staged
   t = tag
+  tam = "!f() { git tag -a $1 -m $1; }; f"
   tl = tag -l
   this = diff --staged
   unadd = reset HEAD
