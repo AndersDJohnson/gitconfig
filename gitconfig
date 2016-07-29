@@ -13,6 +13,7 @@
   default = current
 [alias]
   a = add
+  acm = "!f() { git add $1; git cm $1; }; f"
   aa = add -A
   alias = "!f() { git config --global alias.$1 \"$2\"; }; f"
   aliases = "!git config -l | grep alias | cut -c 7-"
