@@ -66,6 +66,7 @@
   r = reset
   rb = rebase
   rbi = rebase -i
+  rbc = rebase --continue
   rc       = commit --amend --no-edit
   recommit = commit --amend --no-edit
   reword = commit --amend
