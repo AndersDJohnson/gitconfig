@@ -36,9 +36,11 @@
   co = checkout
   conflicts =  diff --diff-filter=U
   conflicted = diff --diff-filter=U --name-only
-  d = diff --color-words
-  di = diff --color-words
-  dn = diff --name-only
+  d   = diff
+  dw  = diff --color-words
+  di  = diff
+  diw = diff --color-words
+  dn  = diff --name-only
   ds     = diff --staged --color-words
   dw = "!f() { git diff $@ | dwdiff --diff-input --color | less; }; f"
   f = fetch
@@ -75,7 +77,8 @@
   rw     = commit --amend
   s = status
   sb = status -sb
-  sg     = diff --staged --color-words
+  sg     = diff --staged
+  sgw    = diff --staged --color-words
   sgn    = diff --staged --name-only
   sgw    = "!git dw --staged"
   ss = status -s
