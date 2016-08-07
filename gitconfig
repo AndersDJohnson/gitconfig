@@ -36,6 +36,7 @@
   co = checkout
   conflicts =  diff --diff-filter=U
   conflicted = diff --diff-filter=U --name-only
+  cp = cherry-pick
   d   = diff
   dw  = diff --color-words
   di  = diff
