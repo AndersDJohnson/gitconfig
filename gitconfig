@@ -75,6 +75,7 @@
   rt = remote
   rtv = remote -v
   rw     = commit --amend
+  rwm    = commit --amend -m
   s = status
   sb = status -sb
   sg     = diff --staged
