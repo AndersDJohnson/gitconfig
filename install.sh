@@ -33,6 +33,7 @@ echo "GITHUB_PASSWORD=${GITHUB_PASSWORD}"
 
 cd "$BASE"
 
-ln -sf "$BASE/gitconfig" ~/.gitconfig
+ln -s "$BASE/gitconfig" ~/.gitconfig
+ln -s "$BASE/gitignore" ~/.gitignore
 template gitconfig-github > .gitconfig-github
 template gitconfig-user > .gitconfig-user
