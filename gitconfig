@@ -31,7 +31,7 @@
   cf        = diff --name-only --diff-filter=U
   cf = diff --diff-filter=U --name-only
   cl = clone
-  cm = commit -m
+  cm = "!f() { MSG=${1:-$(basename $(pwd))}; git commit -m $MSG; }; f"
   cn = commit --no-edit
   co = checkout
   conflicts =  diff --diff-filter=U
