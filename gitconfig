@@ -73,6 +73,7 @@
   rc       = commit --amend --no-edit
   recommit = commit --amend --no-edit
   reword = commit --amend
+  rmc = rm --cached
   rt = remote
   rtv = remote -v
   rw     = commit --amend
