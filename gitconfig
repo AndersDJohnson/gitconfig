@@ -67,6 +67,7 @@
   plrs = "!f() { git stash; git pull --rebase $@; git stash apply; }; f"
   plup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
   r = reset
+  re = reset
   rb = rebase
   rbi = rebase -i
   rbc = rebase --continue
