@@ -55,6 +55,8 @@
   lgr = log --graph -n 20 --format='format:%C(blue)%h%C(reset) %C(black)%an%C(reset) %s %C(black bold)%cr%C(reset)%C(auto)%d%C(reset)' --date-order --tags --all
   last = diff --cached HEAD^
   lp = log --pretty=oneline --stat --decorate
+  ln = log --pretty=oneline --decorate --name-only
+  lo = log --pretty=oneline --decorate
   m = merge
   p = push
   pu = push
