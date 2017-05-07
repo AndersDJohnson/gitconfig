@@ -36,13 +36,13 @@
   co = checkout
   conflicts =  diff --diff-filter=U
   conflicted = diff --diff-filter=U --name-only
-  cp = cherry-pick
-  d   = diff
+	cp = cherry-pick
+	d = diff
   dw  = diff --color-words
   di  = diff
   diw = diff --color-words
   dn  = diff --name-only
-  ds     = diff --staged --color-words
+	ds = diff --staged
   dw = "!f() { git diff $@ | dwdiff --diff-input --color | less; }; f"
   f = fetch
   fixup    = commit --amend --no-edit
@@ -50,7 +50,7 @@
   ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
   ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   ig =     "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-  l  = log
+	l = log
   lg = log
   lgr = log --graph -n 20 --format='format:%C(blue)%h%C(reset) %C(black)%an%C(reset) %s %C(black bold)%cr%C(reset)%C(auto)%d%C(reset)' --date-order --tags --all
   last = diff --cached HEAD^
@@ -68,7 +68,7 @@
   plr = pull --rebase
   plrs = "!f() { git stash; git pull --rebase $@; git stash apply; }; f"
   plup = "!git fetch origin -v; git fetch upstream -v; git merge upstream/master"
-  r = reset
+	r = reset
   re = reset
   rb = rebase
   rbi = rebase -i
@@ -76,12 +76,12 @@
   rc       = commit --amend --no-edit
   recommit = commit --amend --no-edit
   reword = commit --amend
-  rmc = rm --cached
+	rmc = rm --cached
   rt = remote
   rtv = remote -v
   rw     = commit --amend
   rwm    = commit --amend -m
-  s = status
+	s = status
   sb = status -sb
   sg     = diff --staged
   sgw    = diff --staged --color-words
@@ -89,7 +89,7 @@
   sgw    = "!git dw --staged"
   ss = status -s
   sst = status -s --untracked-files=no
-  st = status
+	st = stash
   stt = status --untracked-files=no
   staged = diff --staged
   t = tag
@@ -99,6 +99,19 @@
   unadd = reset HEAD
   unalias = "!f() { git config --global --unset alias.$1; }; f"
   ux = update-index --chmod=+x
+	dl = diff --cached HEAD^
+	cob = checkout -b
+	com = checkout master
+	bd = branch -d
+	rsh = reset --hard
+	i = init
+	dsn = diff --staged --name-only
+	rs = reset
+	puo = push -u origin
+	bsu = branch --set-upstream-to=
+	stp = stash pop
+	sta = stash apply
+	rbm = rebase master
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
