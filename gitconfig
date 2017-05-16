@@ -112,6 +112,9 @@
 	stp = stash pop
 	sta = stash apply
 	rbm = rebase master
+	puonv = push -u origin --no-verify
+	pnv = push --no-verify
+	wip = commit -m WIP --no-verify
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
