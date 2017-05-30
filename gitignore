@@ -1,4 +1,7 @@
 
+# vim swap files
+.*.swp
+
 # Created by https://www.gitignore.io/api/macos
 
 ### macOS ###
