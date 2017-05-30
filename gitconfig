@@ -115,6 +115,9 @@
 	puonv = push -u origin --no-verify
 	pnv = push --no-verify
 	wip = commit -m WIP --no-verify
+	rwnv = commit --amend --no-verify
+	rwmnv = commit --amend --no-verify -m
+	pfnv = push --force --no-verify
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
