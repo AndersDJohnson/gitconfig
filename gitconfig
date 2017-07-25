@@ -119,6 +119,8 @@
 	rwnv = commit --amend --no-verify
 	rwmnv = commit --amend --no-verify -m
 	pfnv = push --force --no-verify
+	rcnv = commit --amend --no-edit --no-verify
+	rba = rebase --abort
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
