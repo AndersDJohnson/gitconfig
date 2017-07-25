@@ -133,6 +133,8 @@
 	protocol = https
 [user]
 	signingkey = A285AD72
+	name = AndersDJohnson
+	email = AndersDJohnson@users.noreply.github.com
 [commit]
 	gpgsign = true
 [core]
