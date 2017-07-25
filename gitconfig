@@ -72,6 +72,7 @@
   re = reset
   rb = rebase
   rbi = rebase -i
+  rbr = "!f() { git branch -d root; git tag root $(git rev-list HEAD | tail -1); git checkout -b new-root root; git commit --amend; git checkout master; git branch -d new-root; git tag -d root; }; f"
   rbc = rebase --continue
   rc       = commit --amend --no-edit
   recommit = commit --amend --no-edit
