@@ -50,7 +50,7 @@
   ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
   ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   ig =     "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
-	l = log
+  l = log
   lg = log
   lgr = log --graph -n 20 --format='format:%C(blue)%h%C(reset) %C(black)%an%C(reset) %s %C(black bold)%cr%C(reset)%C(auto)%d%C(reset)' --date-order --tags --all
   last = diff --cached HEAD^
@@ -59,7 +59,7 @@
   lo = log --pretty=oneline --decorate
   m = merge
   p = push
-  pu = push
+	pu = push --set-upstream
   pf = push --force
   pt = push --tags
   pft = push --follow-tags
