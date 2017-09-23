@@ -122,6 +122,8 @@
 	pfnv = push --force --no-verify
 	rcnv = commit --amend --no-edit --no-verify
 	rba = rebase --abort
+	sh = show
+	cop = checkout -p
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
