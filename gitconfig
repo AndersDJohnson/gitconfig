@@ -24,7 +24,8 @@
   bu = branch -u
   bv = branch -v
   brv = branch -rv
-  bl = blame --line-porcelain --
+  bl = "!git for-each-ref --sort='-authordate' --format='%(objectname:short)%09%(authordate)%09%(refname:short)' refs/heads"
+  bll = "!git for-each-ref --sort='-authordate' --format='%(objectname:short)%09%(authordate)%09%(refname:short)' refs/heads | less"
   c = commit
   ca = commit --amend
   can = commit --amend --no-edit
