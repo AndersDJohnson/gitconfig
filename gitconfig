@@ -47,7 +47,7 @@
   dw = "!f() { git diff $@ | dwdiff --diff-input --color | less; }; f"
   f = fetch
   fixup    = commit --amend --no-edit
-  fu       = commit --amend --no-edit
+  fu = fetch upstream
   ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
   ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   ig =     "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
