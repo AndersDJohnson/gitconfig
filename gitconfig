@@ -49,6 +49,7 @@
   fixup    = commit --amend --no-edit
   fu = fetch upstream
   ghcl = "!f() { if [[ \"$1\" =~ \"/\" ]]; then git clone https://github.com/$1.git; else git clone https://github.com/AndersDJohnson/$1.git; fi }; f"
+  gpr = "!bash -ic \"open \\\"https://\\$(github-host)/\\$(github-repo)/compare/\\$(git rev-parse --abbrev-ref HEAD)?expand=1\\\"\""
   ignore = "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   ig =     "!gi() { curl -L -s https://www.gitignore.io/api/$@ ;}; gi"
   l = log
