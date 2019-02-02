@@ -126,6 +126,20 @@
 	rba = rebase --abort
 	sh = show
 	cop = checkout -p
+	rshum = reset --hard upstream/master
+	mm = merge master
+	rshom = reset --hard origin/master
+	bll = branch -ll
+	dm = diff master
+	fo = fetch origin
+	co- = checkout -
+	rtsuo = remote set-url origin
+	rtsu = remote set-url
+	bsuom = branch --set-upstream-to=origin/master master
+	fom = fetch origin master
+	bm = branch -m
+	cpc = cherry-pick --continue
+	cmnv = commit --no-verify -m
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
