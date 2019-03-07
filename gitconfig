@@ -140,6 +140,8 @@
 	bm = branch -m
 	cpc = cherry-pick --continue
 	cmnv = commit --no-verify -m
+	dnm = diff --name-only master
+	mom = merge origin/master
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
