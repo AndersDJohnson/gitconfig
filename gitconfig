@@ -65,6 +65,7 @@
   pf = push --force
   pt = push --tags
   pft = push --follow-tags
+  pfft = push --force --follow-tags
   pl = pull
   pls = "!f() { git stash; git pull $@; git stash apply; }; f"
   plr = pull --rebase
@@ -106,7 +107,7 @@
 	dl = diff --cached HEAD^
 	cob = checkout -b
 	com = checkout master
-	bd = branch -d
+	bD = branch -D
 	rsh = reset --hard
 	i = init
 	dsn = diff --staged --name-only
@@ -142,6 +143,13 @@
 	cmnv = commit --no-verify -m
 	dnm = diff --name-only master
 	mom = merge origin/master
+	rshm = reset --hard master
+	rsho = reset --hard origin
+	cne = commit --no-edit
+	rbom = rebase origin/master
+	puom = push -u origin master
+	rcd = "!f() { git commit --amend --no-edit --date \"$(date)\"; }; f"
+	td = tag -d
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
