@@ -150,6 +150,7 @@
 	puom = push -u origin master
 	rcd = "!f() { git commit --amend --no-edit --date \"$(date)\"; }; f"
 	td = tag -d
+	ta = tag -a
 [url "https://"]
 	insteadOf = git://
 [filter "lfs"]
