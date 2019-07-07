@@ -162,9 +162,9 @@
 [hub]
 	protocol = https
 [user]
-	signingkey = 23C567285C3411B2
+	signingkey = 6CD365D2
 	name = Anders D. Johnson
-	email = anders.d.johnson.developer@gmail.com
+	email = anders.d.johnson.dev@gmail.com
 [commit]
 	gpgsign = true
 [core]
