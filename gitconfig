@@ -171,4 +171,6 @@
 [core]
 	autocrlf = input
 	excludesfile = ~/.gitignore
+[diff]
+	colorMoved=default
 
