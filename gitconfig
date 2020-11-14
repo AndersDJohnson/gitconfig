@@ -174,3 +174,5 @@
 [diff]
 	colorMoved=default
 
+[http]
+	cookiefile = /Users/anders/.gitcookies
