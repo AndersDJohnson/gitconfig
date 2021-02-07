@@ -176,3 +176,7 @@
 
 [http]
 	cookiefile = /Users/anders/.gitcookies
+
+[diff]
+  noprefix = true
+
