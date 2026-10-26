@@ -180,3 +180,5 @@
 [diff]
   noprefix = true
 
+[rerere]
+	enabled = true
